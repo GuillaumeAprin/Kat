@@ -3,13 +3,12 @@ Projet nodeJS
 
 Synthèse
 faire un site internet:
-inscription/connexion/
+inscription/connexion
 Le but est de faire un jeu style pokémon/dragon quest avec des personnages aléatoire avec leur stats faiblesse atout
-combat en tour par tour. Au début que des image qui se battent.
-Commence avec un personnage au hasard, puis après plusieurs combats, la personne récupère de l'argent pour s'acheter d'autres combattants et être de plus en plus fort et finir par acheter le boss de tous Keanu Reeves.
+Avec des combat en tour par tour.
+On commence avec un personnage au hasard, puis après plusieurs combats, la personne récupère de l'argent pour s'acheter d'autres combattants et être de plus en plus fort et finir par acheter le boss de tous Keanu Reeves.
 Le joueur pourra acheter des compétences à son personnage.
 Le joueur pourra regarder le combat d'autre joueurs et miser pour gagner un maximum d'argent.
-
 Les personnages auront chacun leurs caractéristiques: Vie, attaque, défense, etat, coups spéciaux, passifs, ...
 
 Conception
@@ -19,8 +18,8 @@ html/css
 Cahier des charges du jeu
 Cahier des charges du site
 jeu par soit : -Unity (via WebGL)
-       	-WebGL autre outil graphique
-       	-electron(.js)
+           -WebGL autre outil graphique
+           -electron(.js)
 
 
 Planifier
@@ -39,4 +38,5 @@ Site et serveur avec une interface simple
 Connexion et inscription sur le site
 Fenêtre dans le site / l’application en electron.js où le jeu se déroulera.
 Les images(avatar) se percute et s’enlève de la vie selon les stats.
+
 
