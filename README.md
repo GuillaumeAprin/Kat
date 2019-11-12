@@ -18,8 +18,8 @@ html/css
 Cahier des charges du jeu
 Cahier des charges du site
 jeu par soit : -Unity (via WebGL)
-       	-WebGL autre outil graphique
-       	-electron(.js)
+           -WebGL autre outil graphique
+           -electron(.js)
 
 
 Planifier
@@ -38,4 +38,5 @@ Site et serveur avec une interface simple
 Connexion et inscription sur le site
 Fenêtre dans le site / l’application en electron.js où le jeu se déroulera.
 Les images(avatar) se percute et s’enlève de la vie selon les stats.
+
 
