@@ -38,7 +38,7 @@ sauvegarde de leurs avancer
 améliorer le site et le jeu : autre stats/autre personnage/autre (si on a bien avancé et qu’on a le temps)
 
  prototype initial
-![alt text](blob/master/Page%20test.png?raw=true "Title")
+![alt text](GuillaumeAprin/Kat/blob/master/Page%20test.png?raw=true "Title")
 Ébauche du site avec le jeu (idée de conception)
 
 Les personnages de la base de donné ont une image qui fait les actions.
