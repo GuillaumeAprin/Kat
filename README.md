@@ -1,7 +1,7 @@
 # Kat
-# Projet nodeJS
+## Projet nodeJS
 
-# Concepte du site/application :
+## Concept du site/application :
 Jeu de combat tour par tour (type pokemon/dragon quest) en ligne 
 Deux joueurs s’affronte dans un combat avec un de leur personnage.
 Pendant la partie, les joueurs peuvent utiliser des potions qu’ils auraient acheté ou gagné. 
@@ -18,24 +18,24 @@ Le site/application aura une interface simple d’utilisation. Une fenêtre où 
 Hors combat la fenêtre de jeu affichera une interface ou plusieur boutons offre le choix d’évolution et achat.
 Chaque avancer d’un joueur devra être enregistré.
 
-# Conception
+## Conception
 Nous utiliserons des bases de données pour stocker tous les personnages, avec leurs caractéristiques, compétences, … via MySQL
 Le site sera codé en html/css pour le front et en NodeJS pour le back (consigne)
 Pour le jeu, nous avons à notre disposition plusieurs outils pour le développer.
 Unity, un outil que nous avons déjà utilisé dans d’autres projets.
 Electron on ne connais pas mais qui pourrait être utile à apprendre, un outil qui est multiplateforme et selon leur site “C’est plus facile que vous le pensez”  
 
-# Planifier
-Recherche pour le jeu/personnage/compétence (semaine 11/11) 
-Mise en place des cahier des charges pour le jeu et la partie serveur(semaine 11/11)
-création du serveur puis du site en parallèle du jeu.(des que possible)
-création de la base de donnée et des personnage du jeu en parallèle.(début semaine du 18/11 ou 25/11 selon l’avancement)
-Développement du jeu (début semaine 18/11)
-Lien entre site/application electron et le jeu 
-créer les requêtes nécessaires au jeu entre le serveur et l'utilisateur.
-fonction asynchrone 
-sauvegarde de leurs avancer 
-améliorer le site et le jeu : autre stats/autre personnage/autre (si on a bien avancé et qu’on a le temps)
+## Planifier
+* Recherche pour le jeu/personnage/compétence (semaine 11/11) 
+* Mise en place des cahier des charges pour le jeu et la partie serveur(semaine 11/11)
+* création du serveur puis du site en parallèle du jeu.(des que possible)
+* création de la base de donnée et des personnage du jeu en parallèle.(début semaine du 18/11 ou 25/11 selon l’avancement)
+* Développement du jeu (début semaine 18/11)
+* Lien entre site/application electron et le jeu 
+* créer les requêtes nécessaires au jeu entre le serveur et l'utilisateur.
+* fonction asynchrone 
+* sauvegarde de leurs avancer 
+* améliorer le site et le jeu : autre stats/autre personnage/autre (si on a bien avancé et qu’on a le temps)
 
  prototype initial
 ![alt text](https://github.com/GuillaumeAprin/Kat/blob/master/Page%20test.png)
