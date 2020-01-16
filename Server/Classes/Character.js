@@ -1,6 +1,8 @@
+var shortID = require('shortid');
+
 module.exports = class Character {
     constructor() {
-        this.active = false;
+        this.id = shortID.generate();
         this.character1;
         this.character2;
     }

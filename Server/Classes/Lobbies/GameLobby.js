@@ -14,7 +14,7 @@ module.exports = class GameLobbby extends LobbyBase {
         let lobby = this;
 
         lobby.updateBullets();
-        lobby.updateDeadPlayers();
+        //lobby.updateDeadPlayers();
     }
 
     canEnterLobby(connection = Connection) {
@@ -77,7 +77,7 @@ module.exports = class GameLobbby extends LobbyBase {
         });
     }
 
-    updateDeadPlayers() {
+    /*updateDeadPlayers() {
         let lobby = this;
         let connections = lobby.connections;
 
@@ -101,7 +101,7 @@ module.exports = class GameLobbby extends LobbyBase {
                 }
             }
         });
-    }
+    }*/
 
     onFireBullet(connection = Connection, data) {
         let lobby = this;
@@ -155,7 +155,8 @@ module.exports = class GameLobbby extends LobbyBase {
                         
                         console.log('Player with id: ' + player.id + ' was hit');
                         let returnData = {
-                            id: player.id
+                            id1: player.id,
+                            id2: bullet.activator
                         }
                         c.socket.emit('playerTouched', returnData);
                         c.socket.broadcast.to(lobby.id).emit('playerTouched', returnData);

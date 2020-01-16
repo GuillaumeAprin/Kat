@@ -18,7 +18,7 @@ module.exports = class Player {
         return '(' + player.username + ':' + player.id + ')';
     }
 
-    respawnCounter() {
+    /*respawnCounter() {
         this.respawnTicker = this.respawnTicker + 1;
 
         if(this.respawnTicker >= 10) {
@@ -38,12 +38,12 @@ module.exports = class Player {
         }
 
         return false;
-    }
+    }*/
 
     touched() {
-        this.isDead = true;
+        this.isTouched = true;
         this.respawnTicker = new Number(0);
         this.respawnTime = new Number(0);
-        return this.isDead;
+        return this.isTouched;
     }
 }

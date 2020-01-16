@@ -57,5 +57,13 @@ module.exports = class Connection {
 
             socket.broadcast.to(connection.lobby.id).emit('updateRotation', player);
         });
+
+        socket.on('setCharacter1', function(data) {
+            character.character1 = data.character1;
+        });
+
+        socket.on('setCharacter2', function(data) {
+            character.character2 = data.character2;
+        });
     }
 }
