@@ -1,24 +1,24 @@
-var shortID = require('shortid');
-var Vector2 = require('./Vector2.js');
+var shortID = require('shortid')
+var Vector2 = require('./Vector2.js')
 
 module.exports = class Player {
-    constructor() {
-        this.username = 'Default_Player';
-        this.id = shortID.generate();
-        this.lobby = 0;
-        this.position = new Vector2();
-        this.armsRotation = new Number(0);
-        this.isTouched = false;
-        this.respawnTicker = new Number(0);
-        this.respawnTime = new Number(0);
-    }
+  constructor () {
+    this.username = 'Default_Player'
+    this.id = shortID.generate()
+    this.lobby = 0
+    this.position = new Vector2()
+    this.armsRotation = new Number(0)
+    this.isTouched = false
+    this.respawnTicker = new Number(0)
+    this.respawnTime = new Number(0)
+  }
 
-    displayerPlayerInformation() {
-        let player = this;
-        return '(' + player.username + ':' + player.id + ')';
-    }
+  displayerPlayerInformation () {
+    const player = this
+    return '(' + player.username + ':' + player.id + ')'
+  }
 
-    /*respawnCounter() {
+  /* respawnCounter() {
         this.respawnTicker = this.respawnTicker + 1;
 
         if(this.respawnTicker >= 10) {
@@ -38,12 +38,12 @@ module.exports = class Player {
         }
 
         return false;
-    }*/
+    } */
 
-    touched() {
-        this.isTouched = true;
-        this.respawnTicker = new Number(0);
-        this.respawnTime = new Number(0);
-        return this.isTouched;
-    }
+  touched () {
+    this.isTouched = true
+    this.respawnTicker = new Number(0)
+    this.respawnTime = new Number(0)
+    return this.isTouched
+  }
 }
